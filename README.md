@@ -69,13 +69,9 @@ Run options: --seed 12345
 # Running:
 ..
 
-Finished in 0.003366s, 2673.6228 runs/s, 3564.8305 assertions/s.
+Finished in 0.003311s, 2717.9772 runs/s, 3623.9697 assertions/s.
 
-  1) Failure:
-TestStringCalculator#test_negative_numbers_case_3 [test_TDD_BDD.rb:48]:
-Expected "negative numbers -1,-3,-9 are not allowed" to not be equal to "negative numbers -1,-3,-9 are not allowed".
-
-9 runs, 12 assertions, 1 failures, 0 errors, 0 skips
+9 runs, 12 assertions, 0 failures, 0 errors, 0 skips
 
 ```
 
