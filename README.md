@@ -69,9 +69,9 @@ Run options: --seed 12345
 # Running:
 ..
 
-Finished in 0.001234s, 1612.9037 runs/s, 1612.9037 assertions/s.
+Finished in 0.002989s, 1338.1878 runs/s, 1338.1878 assertions/s.
 
-2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
+4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 This means all tests have passed successfully! ✅  
