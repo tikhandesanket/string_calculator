@@ -4,7 +4,7 @@ class StringCalculator
     return 0 if numbers.empty?
     array_in_numbers = numbers.scan(/-?\d+|[a-zA-Z]+/).map{|ele| ele.to_i}
     return 0 if array_in_numbers.empty?
-    negative_nums = array_in_numbers.select(&:negative?).empty?
+    negative_nums = array_in_numbers.select(&:negative?)
     if !negative_nums.empty?
       raise "negative number not allowed"
     else
