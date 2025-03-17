@@ -6,7 +6,7 @@ class StringCalculator
     return 0 if array_in_numbers.empty?
     negative_nums = array_in_numbers.select(&:negative?)
     if !negative_nums.empty?
-      raise "negative number not allowed"
+      raise negative_nums.size==1 ? "negative number not allowed" : "negative numbers #{negative_nums.join(",")} are not allowed"
     else
       return array_in_numbers.map{|num| num.to_i}.sum
     end
